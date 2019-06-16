@@ -37,6 +37,9 @@ public class Classroom {
         studentList.add(student);
         students = studentList.toArray(new Student[0]);
     }
-    
+
+    public void removeStudent(Student student){
+        
+    }
 }
 
