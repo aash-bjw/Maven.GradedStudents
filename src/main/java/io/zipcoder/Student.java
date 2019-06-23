@@ -16,22 +16,27 @@ public class Student {
     }
 
     public void setFirstName(String firstName){
+
         this.firstName = firstName;
     }
 
     public String getFirstName(){
+
         return firstName;
     }
 
     public void setLastName(String lastName){
+
         this.firstName = firstName;
     }
 
     public String getLastName(){
+
         return lastName;
     }
 
     public Integer getNumberOfExamsTaken(){
+
         return examScores.size();
     }
 
@@ -44,6 +49,7 @@ public class Student {
     }
 
     public void addExamScore(double examScore){
+
         examScores.add(examScore);
     }
 
